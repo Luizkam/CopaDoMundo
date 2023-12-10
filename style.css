@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Nova+Square&display=swap');
+
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Nova Square', sans-serif; */
+
+body{
+    background-image: linear-gradient(to top right, rgb(230, 230, 131), rgb(60, 169, 60));
+    font-family: 'Nova Square', sans-serif;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 8px 8px 3px rgb(72, 98, 20);
+    border-bottom: 4px double black;
+}
+.menu-inicial{
+    display: flex;
+    list-style:none;
+    background-image: linear-gradient(to top right, rgb(230, 230, 131), rgb(60, 169, 60));
+    box-shadow: 4px 4px;
+    padding:12px;
+    margin: 4px 0px 8px 0px;
+    justify-content:flex-end;
+
+}
+.menu-inicial a{
+    color: white;
+    text-decoration:none;
+    padding:12px 12px;
+    margin:16px;
+}
+.menu-inicial a:hover{
+   background-color: green;
+   text-decoration: underline yellow;
+
+}
+
+.paragrafo{
+    margin:0px 20px 0px 0px;
+    text-align: justify;
+    flex-flow: row wrap;
+    
+}
+.pele{
+    align-items: flex-end;
+    align-content: flex-end;
+    justify-content: flex-end;
+    text-align: justify;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    
+}
+.rodape{
+    background-image: linear-gradient(to right, rgb(160, 148, 148), rgb(83, 82, 82));
+    color: white;
+    padding: 8px;
+}
+.span{
+    position:absolute;
+    right:16px;
+}
+h2{
+    font-family:arial;
+    font-size: 22pt;
+}
+.curiosidade{
+    text-align: justify;
+    margin: 4px;
+}
